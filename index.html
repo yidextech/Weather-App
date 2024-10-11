@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <div class="weatherApp">
+    <h1 class="appTitle">Weather App</h1>
+  <hr>
+  <br>
+    <input id="cityName" type="text">
+    <button onclick="weatherApp()">Search</button>
+
+    <div class="display">
+
+      <h2 id="city">Tokyo</h2>
+      <h3 id="locate">Location: Tokyo, Japan</h3>
+      <p id="weatherIcon"><img id="weatherImage" src="images/weatherIcons/2.svg" alt="Weather Condition"></p>
+      <p id="cloudCover">Cloud Cover 70%</p>
+      <p id="temp"><span id="tempC">5</span>&deg;C 
+        <br><span id="tempF">10</span>&deg;F</p>
+
+        <p class="meta"><img src="images/wind.svg" alt="Wind" /><span class="wind">10Kmphr</span></p>
+        <p class="meta"><img src="images/humidity.svg" alt="humidity" width="36px" /><span class="humidity">50%</span></p>
+
+      
+    </div>
+
+  </div>
+
+
+<script src="index.js"></script>
+</body>
+</html>

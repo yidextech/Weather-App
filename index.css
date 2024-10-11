@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("images/cloudImage2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+div.weatherApp{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  margin-top: 10%;
+  padding: 2rem;
+  color: wheat;
+  border-radius: 10px;
+}
+h1.appTitle{
+  margin-bottom: 1.5rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+
+}
+h2#city{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+input{
+  padding: 0.5rem;
+  width: 70%;
+  height: 50px;
+  font-size: 1.5rem;
+  outline: none;
+  border-radius: 5px;
+}
+button{
+  padding: 0.6rem;
+  font-size: 1.5rem;
+  background-color: rgb(42, 108, 152);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+h2#city{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+h3#locate{
+  font-size: 1.5rem;
+  font-family: monospace;
+  padding: 10px;
+}
+p#weatherIcon img{
+  width: 10rem;
+}
+p#cloudCover{
+  font-size: 1.5rem;
+  font-family: monospace;
+}
+p#temp{
+  font-size: 3rem;
+  font-family: monospace;
+  margin-bottom: 2rem;
+}
+p.meta{
+
+}
+p.meta{
+  display:inline-block;
+}
+p.meta span{
+  font-family: monospace;
+  font-size: 2rem;
+  margin: 10px;
+}
+p.meta img{
+  width: 3rem;
+  vertical-align:bottom;
+}
+@media (min-width:)
